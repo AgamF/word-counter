@@ -1,0 +1,59 @@
+.buffer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  background: lightblue;
+  padding: 20px;
+  margin-top: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+textarea {
+  resize: both;
+  width: 400px;
+  height: 150px;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+h3 { font-size: 32px; }
+
+button {
+  font-family: 'Mukta';
+  font-size: 30px;
+  font-weight: 600;
+  background: rgb(57, 193, 163);
+  border: 1px solid black;
+  padding: 4px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 8px;
+  transition: all 0.5s;
+}
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#check-btn {
+  margin-top: 20px;
+}
+
+a {
+  margin-top: 250px;
+  font-weight: 600;
+  font-size: 22px;
+  font-family: 'Courier New', Courier, monospace;
+}
